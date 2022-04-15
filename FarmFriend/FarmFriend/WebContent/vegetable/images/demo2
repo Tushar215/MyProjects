@@ -1,0 +1,82 @@
+<HTML>
+
+<header>
+<link rel="stylesheet" href="css/logo.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</header>
+
+<body background ="g.jpg">
+
+<img  src="images/header.png" class="logo">
+<div class="navbar">
+  <a href="header1.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a class="active" href="cropList.html"><i class="fa fa-fw fa-th-list"></i> Crop Information</a> 
+  <a href="WeatherForcast.html"><i class="fa fa-fw fa-map"></i>Weather Forecast</a> 
+  <a href="marketPrices.html"><i class="fa fa-fw fa-usd"></i> Market Prise </a>
+  <a href="alert.html"><i class="fa fa-fw fa-bell"></i> Alerts</a>
+  <a href="registration.html"><i class="fa fa-fw fa-user-plus"></i> Registration</a>
+</div>
+
+<br>
+<div class="croplist">
+<h1 style="font-family:Georgia;"><font size ="15">Crop List</font></h1>
+</div >
+<div class="container">
+        <ul>
+		    <font face="verdana" color="brown">
+            <li><a href="wheat.html"><font face="verdana" color="red">Wheat</font></a></li><br>
+            <li><a href="corn.html"><font face="verdana" color="red">Corn</font></a></li><br>
+			<li><a href="bajara.html"><font face="verdana" color="red">Bajara</font></a></li><br>
+            <li><a href="suger.html"><font face="verdana" color="red">Sugercane</font></a></li><br>
+            <li><a href="soya.html"><font face="verdana" color="red">Soyabean</font></a></li><br>
+            <li><a href="rice.html"><font face="verdana" color="red">Rice</font></a></li><br>
+			<li><a href="cotton.html"><font face="verdana" color="red">Cotton</font></a></li><br>
+			</font>
+		</ul>
+    </div>
+<div>
+</list>
+
+</div>
+</body>
+</Html>
