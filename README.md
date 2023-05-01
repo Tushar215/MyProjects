@@ -1,2 +1,1 @@
-# This is My Academic Projects.
-sssss
+# This is My Academic Project.
